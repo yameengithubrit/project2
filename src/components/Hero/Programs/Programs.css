@@ -1,0 +1,151 @@
+.Programs{
+    background-color: black;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    padding: 0 2rem;
+}
+.programs-header{
+    display: flex;
+    gap: 5rem;
+    font-weight: bold;
+    font-size: 3rem;
+    justify-content: center;
+    color: white;
+    text-transform: uppercase;
+    font-style: italic;
+}
+.stroke-text{
+    color:aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    --webkit-text-stroke-width: 8px;
+    --webkit-text-stroke-color: black;
+}
+
+.programs-categories{
+
+height: 450px;
+display: flex;
+gap: 1rem;
+
+
+
+}
+.programs-categories .first{
+    display: flex;
+flex-direction: column;
+background-color: darkgray;
+padding: 2rem;
+gap: 1rem;
+color: white;
+justify-content: space-between;
+height: 350px;;
+width: 250px;
+background-color: #393d42;
+    }
+   
+    .programs-categories .first .join{
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        
+    }
+
+    .programs-categories .second{
+        display: flex;
+flex-direction: column;
+background-color: darkgray;
+padding: 2rem;
+gap: 1rem;
+color: white;
+justify-content: space-between;
+height: 350px;;
+width: 250px;
+background-color: #393d42;
+        }
+       
+        .programs-categories .third .join{
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            
+        }
+
+
+        .programs-categories .third{
+            display: flex;
+    flex-direction: column;
+    background-color: darkgray;
+    padding: 2rem;
+    gap: 1rem;
+    color: white;
+    justify-content: space-between;
+    height: 350px;;
+    width: 250px;
+    background-color: #393d42;
+            }
+           
+            .programs-categories .second .join{
+                display: flex;
+                align-items: center;
+                gap: 2rem;
+                
+            }
+
+
+
+            .programs-categories .fourth{
+                display: flex;
+        flex-direction: column;
+        background-color: darkgray;
+        padding: 2rem;
+        gap: 1rem;
+        color: white;
+        justify-content: space-between;
+        height: 350px;;
+        width: 250px;
+        background-color: #393d42;
+                }
+               
+                .programs-categories .fourth .join{
+                    display: flex;
+                    align-items: center;
+                    gap: 2rem;
+                    
+                }
+.first:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+.second:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+
+.third:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+.fourth:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .programs-header{
+        flex-direction: column;
+        gap: 1rem;
+        font-size: x-large;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+    .programs-categories{
+        flex-direction: column;
+    }
+    
+}
